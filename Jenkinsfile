@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/your-repo-url.git'
+                git 'https://github.com/amankumar141/online-notepad.git'
             }
         }
         stage('Install Dependencies') {
