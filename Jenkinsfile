@@ -8,12 +8,12 @@ pipeline {
         }
         stage('Install Dependencies') {
             steps {
-                bat 'pip install -r requirements.txt'
+                bat '"C:\\Users\\amanp\\AppData\\Local\\Programs\\Python\\Python313\\pip.exe" install -r requirements.txt' 
             }
         }
         stage('Run App') {
             steps {
-                bat 'python app.py'
+                bat '"C:\\Users\\amanp\\AppData\\Local\\Programs\\Python\\Python313\\" app.py'
             }
         }
     }
